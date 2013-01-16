@@ -7,13 +7,13 @@ require "acts_as_page/version"
 Gem::Specification.new do |s|
   s.name        = "acts_as_page"
   s.version     = ActsAsPage::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of ActsAsPage."
-  s.description = "TODO: Description of ActsAsPage."
+  s.authors     = ["gcorbel"]
+  s.email       = ["guirec.corbel@gmail.com"]
+  s.homepage    = "https://github.com/GCorbel/acts_as_page"
+  s.summary     = "simple gem which include globalize and frienly id"
+  s.description = "simple gem which include globalize and frienly id"
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["lib/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
 
   s.add_dependency "rails", "~> 3.2.11"
   s.add_dependency "globalize3", "~> 0.3.0"
