@@ -17,9 +17,9 @@ module ActsAsPage
       friendly_id :title, use: [:slugged, :globalize]
     end
 
-    def set_home_page(page)
-      Page.update_all(home: false)
-      page.update_attribute(:home, true)
+    def set_home_page(model)
+      model.class.update_all(home: false)
+      model.update_attribute(:home, true)
     end
   end
 end
