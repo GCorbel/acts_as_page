@@ -1,3 +1,9 @@
 = ActsAsPage
 
-This project rocks and uses MIT-LICENSE.
+This gem is a mix with globalize3, friendly_id. To use it, you must to `acts_as_page` in a model like here :
+
+    class Page < ActiveRecord::Base
+      acts_as_page
+    end
+
+For more information, you can go here https://github.com/svenfuchs/globalize3 or here : https://github.com/norman/friendly_id.
